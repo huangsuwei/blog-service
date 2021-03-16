@@ -18,7 +18,6 @@ func NewError(code int, msg string) *Error {
 		panic(fmt.Sprintf("错误码 %d 已经存在，请更换一个", code))
 	}
 	codes[code] = msg
-
 	return &Error{code: code, msg: msg}
 }
 
@@ -27,7 +26,7 @@ func (e *Error) Error() string {
 }
 
 func (e *Error) Code() int {
-	return e.Code()
+	return e.code
 }
 
 func (e *Error) Msg() string {
