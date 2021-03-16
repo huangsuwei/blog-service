@@ -1,0 +1,9 @@
+2021/03/16 20:18:27 {"callers":["F:/gowork/blog-service/main.go: 40 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615897107171200100}
+2021/03/16 20:21:48 {"callers":["F:/gowork/blog-service/main.go: 40 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615897308721200100}
+2021/03/16 20:40:39 {"callers":["F:/gowork/blog-service/main.go: 40 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615898439714200100}
+2021/03/16 20:55:06 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615899306433200100}
+2021/03/16 21:13:58 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615900438576200100}
+2021/03/16 21:34:58 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615901698648200100}
+2021/03/16 21:35:06 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1615901706780200100}
+2021/03/16 21:36:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615901783672200100}
+2021/03/16 21:36:29 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1615901789201200100}

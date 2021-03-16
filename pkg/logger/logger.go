@@ -159,4 +159,6 @@ func (l *Logger) Fatalf(format string, v ...interface{}) {
 	l.Output(LevelFatal, fmt.Sprintf(format, v...))
 }
 
-
+func (l *Logger) Errorf(s string, errs ...interface{}) {
+	l.Output(LevelFatal, fmt.Sprintf(s, errs...))
+}

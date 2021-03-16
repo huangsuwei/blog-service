@@ -1,13 +1,11 @@
 package setting
 
 import (
-	"blog-service/pkg/logger"
 	"github.com/spf13/viper"
 )
 
 type Setting struct {
-	vp     *viper.Viper
-	Logger *logger.Logger
+	vp *viper.Viper
 }
 
 func NewSetting() (*Setting, error) {
@@ -20,5 +18,5 @@ func NewSetting() (*Setting, error) {
 		return nil, err
 	}
 
-	return &Setting{vp, }, nil
+	return &Setting{vp}, nil
 }

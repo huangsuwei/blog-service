@@ -5,6 +5,7 @@ import (
 	"blog-service/pkg/setting"
 	"fmt"
 	"github.com/jinzhu/gorm"
+	"time"
 )
 
 type Model struct {
@@ -38,4 +39,27 @@ func NewDBEngine(databaseSetting *setting.DatabaseSettingS) (*gorm.DB, error) {
 	db.DB().SetMaxOpenConns(databaseSetting.MaxOpenConns)
 
 	return db, nil
+}
+
+func updateTimeStampForUpdateCallback(scope *gorm.Scope) {}
+func deleteCallback(scope *gorm.Scope)                   {}
+func addExtraSpaceIfExist(str string) string {
+	return ""
+}
+
+func updateTimeStampForCreateCallback(scope *gorm.Scope) {
+	if !scope.HasError() {
+		nowTime := time.Now().Unix()
+		if createTimeField, ok := scope.FieldByName("CreatedOn"); ok {
+			if createTimeField.IsBlank {
+				_ = createTimeField.Set(nowTime)
+			}
+		}
+
+		if modifyTimeField, ok := scope.FieldByName("ModifiedOn"); ok {
+			if modifyTimeField.IsBlank {
+				_ = modifyTimeField.Set(nowTime)
+			}
+		}
+	}
 }
