@@ -7,3 +7,106 @@
 2021/03/16 21:35:06 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1615901706780200100}
 2021/03/16 21:36:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615901783672200100}
 2021/03/16 21:36:29 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1615901789201200100}
+2021/03/17 20:15:13 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615983313623200100}
+2021/03/17 20:32:51 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615984371133200100}
+2021/03/17 20:36:27 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615984587573200100}
+2021/03/17 20:36:32 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param:{go yuityityi 1}","time":1615984592978200100}
+2021/03/17 20:39:42 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615984782753200100}
+2021/03/17 20:39:46 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615984786333200100}
+2021/03/17 20:43:12 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615984992888200100}
+2021/03/17 20:43:17 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615984997391200100}
+2021/03/17 20:43:17 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615984997392200100}
+2021/03/17 20:43:17 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615984997392200100}
+2021/03/17 20:43:17 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00005f6c0 go 1}","time":1615984997392200100}
+2021/03/17 20:50:19 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615985419831200100}
+2021/03/17 20:50:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615985423701200100}
+2021/03/17 20:50:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615985423702200100}
+2021/03/17 20:50:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615985423702200100}
+2021/03/17 20:50:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc0000696c0 go 1}","time":1615985423702200100}
+2021/03/17 20:50:23 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"Create{0xc0000696c0 go 1}","time":1615985423703200100}
+2021/03/17 20:51:59 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615985519214200100}
+2021/03/17 20:52:03 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615985523284200100}
+2021/03/17 20:52:03 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615985523284200100}
+2021/03/17 20:52:03 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615985523284200100}
+2021/03/17 20:52:03 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00017d600 go 1}","time":1615985523285200100}
+2021/03/17 20:52:51 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615985571669200100}
+2021/03/17 20:52:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615985574696200100}
+2021/03/17 20:52:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615985574696200100}
+2021/03/17 20:52:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615985574696200100}
+2021/03/17 20:52:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00027c500 go 1}","time":1615985574697200100}
+2021/03/17 20:52:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"db:\u003cnil\u003e","time":1615985574697200100}
+2021/03/17 21:00:32 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986032771200100}
+2021/03/17 21:00:35 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986035733200100}
+2021/03/17 21:00:35 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986035733200100}
+2021/03/17 21:00:35 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986035733200100}
+2021/03/17 21:00:35 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00027c500 go 1}","time":1615986035734200100}
+2021/03/17 21:00:35 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"d.engine\u003cnil\u003e","time":1615986035734200100}
+2021/03/17 21:00:35 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"db:\u003cnil\u003e","time":1615986035734200100}
+2021/03/17 21:01:38 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986098871200100}
+2021/03/17 21:01:44 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986104338200100}
+2021/03/17 21:01:44 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986104338200100}
+2021/03/17 21:01:44 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986104338200100}
+2021/03/17 21:01:44 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00023e4c0 go 1}","time":1615986104338200100}
+2021/03/17 21:04:34 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986274234200100}
+2021/03/17 21:04:37 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986277278200100}
+2021/03/17 21:04:37 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986277278200100}
+2021/03/17 21:04:37 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986277278200100}
+2021/03/17 21:04:37 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc000328a00 go 1}","time":1615986277278200100}
+2021/03/17 21:08:32 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986512866200100}
+2021/03/17 21:11:16 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986676638200100}
+2021/03/17 21:11:18 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986678907200100}
+2021/03/17 21:11:18 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986678908200100}
+2021/03/17 21:11:18 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986678908200100}
+2021/03/17 21:11:18 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc0002444c0 go 1}","time":1615986678908200100}
+2021/03/17 21:13:02 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986782735200100}
+2021/03/17 21:13:05 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986785559200100}
+2021/03/17 21:13:05 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986785559200100}
+2021/03/17 21:13:05 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986785559200100}
+2021/03/17 21:13:05 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00005e6c0 go 1}","time":1615986785560200100}
+2021/03/17 21:13:47 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986827957200100}
+2021/03/17 21:13:50 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986830758200100}
+2021/03/17 21:13:50 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986830758200100}
+2021/03/17 21:13:50 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986830758200100}
+2021/03/17 21:13:50 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc000165600 go 1}","time":1615986830759200100}
+2021/03/17 21:13:50 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"Create22222222","time":1615986830759200100}
+2021/03/17 21:14:40 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615986880070200100}
+2021/03/17 21:14:42 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615986882472200100}
+2021/03/17 21:14:42 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615986882472200100}
+2021/03/17 21:14:42 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615986882472200100}
+2021/03/17 21:14:42 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00005e940 go 1}","time":1615986882473200100}
+2021/03/17 21:14:42 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"Create22222222","time":1615986882473200100}
+2021/03/17 21:17:27 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615987047257200100}
+2021/03/17 21:17:30 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615987050244200100}
+2021/03/17 21:17:30 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615987050244200100}
+2021/03/17 21:17:30 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615987050245200100}
+2021/03/17 21:17:30 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc00005e500 go 1}","time":1615987050245200100}
+2021/03/17 21:17:30 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"t\u0026{0xc00005e500 go 1}","time":1615987050245200100}
+2021/03/17 21:18:30 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615987110210200100}
+2021/03/17 21:18:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615987113776200100}
+2021/03/17 21:18:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615987113777200100}
+2021/03/17 21:18:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615987113777200100}
+2021/03/17 21:18:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc0000e48c0 go 1}","time":1615987113777200100}
+2021/03/17 21:19:12 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615987152994200100}
+2021/03/17 21:19:15 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{go yuityityi 1}","time":1615987155520200100}
+2021/03/17 21:19:15 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615987155520200100}
+2021/03/17 21:19:15 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag","time":1615987155520200100}
+2021/03/17 21:19:15 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"CreateTag{0xc0000e88c0 go 1}","time":1615987155520200100}
+2021/03/17 21:28:28 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615987708399200100}
+2021/03/17 21:29:04 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615987744235200100}
+2021/03/17 21:29:07 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"888","time":1615987747218200100}
+2021/03/17 21:32:12 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615987932455200100}
+2021/03/17 21:32:15 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"engine\u0026{{{0 0} 0 0 0 0} \u003cnil\u003e \u003cnil\u003e 0 0xc0000e4000 false 2 {0xc0000f9d60} \u003cnil\u003e {{0 0} {\u003cnil\u003e} map[] 0} 0xc00015a0d0 0xc0000783c0 0xc0000f06e0 true \u003cnil\u003e}","time":1615987935862200100}
+2021/03/17 21:32:15 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"888","time":1615987935863200100}
+2021/03/17 21:34:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"engine\u0026{{{0 0} 0 0 0 0} \u003cnil\u003e \u003cnil\u003e 0 0xc0000e4000 false 2 {0xc0000f9d60} \u003cnil\u003e {{0 0} {\u003cnil\u003e} map[] 0} 0xc00015a0d0 0xc0000783c0 0xc0000f06e0 true \u003cnil\u003e}","time":1615988094172200100}
+2021/03/17 21:34:54 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"888","time":1615988094172200100}
+2021/03/17 21:35:07 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1615988107237200100}
+2021/03/17 21:35:11 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"engine\u0026{{{0 0} 0 0 0 0} \u003cnil\u003e \u003cnil\u003e 0 0xc0000ba000 false 2 {0xc0000f9d60} \u003cnil\u003e {{0 0} {\u003cnil\u003e} map[] 0} 0xc00015a0d0 0xc0000783c0 0xc0000f06e0 true \u003cnil\u003e}","time":1615988111243200100}
+2021/03/17 21:35:11 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"888","time":1615988111243200100}
+2021/03/17 21:35:11 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"111","time":1615988111247200100}
+2021/03/17 21:36:20 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param1:{PHP hsw 1}","time":1615988180815200100}
+2021/03/17 21:36:20 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"jinlaile","time":1615988180815200100}
+2021/03/17 21:36:20 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param2:{PHP hsw 1}","time":1615988180912200100}
+2021/03/17 21:36:20 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"param3:{PHP hsw 1}","time":1615988180912200100}
+2021/03/17 21:36:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"engine\u0026{{{0 0} 0 0 0 0} \u003cnil\u003e \u003cnil\u003e 0 0xc0000ba000 false 2 {0xc0000f9d60} \u003cnil\u003e {{0 0} {\u003cnil\u003e} map[] 0} 0xc00015a0d0 0xc0000783c0 0xc0000f06e0 true \u003cnil\u003e}","time":1615988193598200100}
+2021/03/17 21:36:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"888","time":1615988193598200100}
+2021/03/17 21:36:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"111","time":1615988193601200100}

@@ -1,12 +1,14 @@
 package routers
 
 import (
+	"blog-service/global"
 	"blog-service/internal/middleware"
 	v1 "blog-service/internal/routers/api/v1"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-programming-tour-book/blog-service/docs"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
+	"net/http"
 )
 
 func NewRouter() *gin.Engine {
@@ -16,6 +18,10 @@ func NewRouter() *gin.Engine {
 	r.Use(middleware.Translations())
 	url := ginSwagger.URL("http://127.0.0.1:8000/swagger/doc.json")
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
+
+	upload := NewUpload()
+	r.POST("/upload/file", upload.UploadFile)
+	r.StaticFS("/static", http.Dir(global.AppSetting.UploadSavePath))
 
 	article := v1.NewArticle()
 	tag := v1.NewTag()

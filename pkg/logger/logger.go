@@ -57,6 +57,8 @@ func NewLogger(w io.Writer, prefix string, flag int) *Logger {
 func (l *Logger) clone() *Logger {
 	n1 := *l
 
+	fmt.Println("success")
+
 	return &n1
 }
 
