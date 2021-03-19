@@ -6,6 +6,8 @@ import (
 	"blog-service/internal/routers"
 	"blog-service/pkg/logger"
 	"blog-service/pkg/setting"
+	"github.com/gin-contrib/pprof"
+	_ "github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"gopkg.in/natefinch/lumberjack.v2"
@@ -21,6 +23,7 @@ import (
 func main() {
 	gin.SetMode(global.ServerSetting.RunMode)
 	router := routers.NewRouter()
+	pprof.Register(router)
 	s := &http.Server{
 		Addr:           ":" + global.ServerSetting.HttpPort,
 		Handler:        router,
@@ -28,7 +31,7 @@ func main() {
 		WriteTimeout:   global.ServerSetting.WriteTimeout,
 		MaxHeaderBytes: 1 << 20,
 	}
-	global.Logger.Infof("%s: go-programming-tour-book/%s", "eddycjy", "blog-service")
+	//global.Logger.Infof("%s: go-programming-tour-book/%s", "eddycjy", "blog-service")
 	s.ListenAndServe()
 }
 
@@ -64,7 +67,16 @@ func setupSetting() error {
 	if err != nil {
 		return err
 	}
+	err = newSetting.ReadSection("JWT", &global.JWTSetting)
+	if err != nil {
+		return err
+	}
+	err = newSetting.ReadSection("Email", &global.EmailSetting)
+	if err != nil {
+		return err
+	}
 
+	global.JWTSetting.Expire *= time.Second
 	global.ServerSetting.ReadTimeout *= time.Second
 	global.ServerSetting.WriteTimeout *= time.Second
 

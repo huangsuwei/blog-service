@@ -13,9 +13,13 @@ import (
 
 func NewRouter() *gin.Engine {
 	r := gin.New()
-	r.Use(gin.Logger())
-	r.Use(gin.Recovery())
-	r.Use(middleware.Translations())
+	r.Use(
+		gin.Logger(),
+		gin.Recovery(),
+		middleware.Translations(),
+		middleware.AccessLog(),
+		middleware.Recovery(),
+	)
 	url := ginSwagger.URL("http://127.0.0.1:8000/swagger/doc.json")
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
 
@@ -23,9 +27,12 @@ func NewRouter() *gin.Engine {
 	r.POST("/upload/file", upload.UploadFile)
 	r.StaticFS("/static", http.Dir(global.AppSetting.UploadSavePath))
 
+	r.POST("/auth", v1.GetAuth)
+
 	article := v1.NewArticle()
 	tag := v1.NewTag()
 	apiv1 := r.Group("/api/v1")
+	apiv1.Use(middleware.JWT())
 	{
 		apiv1.POST("/tags", tag.Create)
 		apiv1.DELETE("/tags/:id", tag.Delete)

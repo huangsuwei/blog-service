@@ -110,3 +110,9 @@
 2021/03/17 21:36:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"engine\u0026{{{0 0} 0 0 0 0} \u003cnil\u003e \u003cnil\u003e 0 0xc0000ba000 false 2 {0xc0000f9d60} \u003cnil\u003e {{0 0} {\u003cnil\u003e} map[] 0} 0xc00015a0d0 0xc0000783c0 0xc0000f06e0 true \u003cnil\u003e}","time":1615988193598200100}
 2021/03/17 21:36:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"888","time":1615988193598200100}
 2021/03/17 21:36:33 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"111","time":1615988193601200100}
+2021/03/19 20:50:45 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1616158245272600100}
+2021/03/19 20:51:34 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1616158294283600100}
+2021/03/19 20:52:29 {"callers":["F:/gowork/blog-service/main.go: 44 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1616158349246600100}
+2021/03/19 21:48:41 {"callers":["F:/gowork/blog-service/main.go: 47 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: AppSecret为必填字段","time":1616161721141600100}
+2021/03/19 21:52:42 {"callers":["F:/gowork/blog-service/main.go: 47 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: AppSecret为必填字段","time":1616161962323600100}
+2021/03/19 21:53:40 {"callers":["F:/gowork/blog-service/main.go: 47 main.init.0"],"level":"info","message":"access log: method: GET, status_code: 404, begin_time: 1616162020, end_time: 1616162020","request":"","response":"","time":1616162020930600100}

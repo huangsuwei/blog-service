@@ -4,7 +4,9 @@ go 1.13
 
 require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/gin-contrib/pprof v1.3.0
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-openapi/spec v0.20.3 // indirect
 	github.com/go-playground/locales v0.13.0
@@ -30,5 +32,6 @@ require (
 	golang.org/x/sys v0.0.0-20210316092937-0b90fd5c4c48 // indirect
 	golang.org/x/tools v0.1.0 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
+	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
